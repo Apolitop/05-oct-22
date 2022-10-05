@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+  <!--barra de navegacion-->
+  <nav>
+    <!--contenedor logo-->
+    <div class="logo">
+      <a href="#">apolito</a>
+    </div>
+    <!--fin de contenedor logo-->
+    <!--inicio del menu web-->
+    <div
+      <ul class="nav-links">
+      <li><a href="#">home</a></li>
+      <li><a href="#">quien soy</a></li>
+      <li><a href="#">portafolio</a></li>
+      </ul>
+    </div>
+    </nav>
+    <!--fin menu web-->
+    <section class="home"></section>
+      <div class="text">
+        <p> <h2>GUDETAMA</h2>
+        <p>.</p>
+      </div>
+<!--area de java-->
+<script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+
+  </nav>
+</script>
+  </body>
+</html>
